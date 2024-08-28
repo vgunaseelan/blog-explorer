@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "email": "admin@example.com",
+      "password": "admin",
+      "role": "admin",
+      "createdAt": "2023-02-20T14:45:00Z"
+    },
+    {
+      "id": 2,
+      "username": "User",
+      "email": "user@example.com",
+      "password": "user",
+      "role": "user",
+      "createdAt": "2023-05-12T11:55:00Z"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "9780446400542",
+      "publishedDate": "1960-07-11",
+      "genre": "Fiction",
+      "description": "A novel set in the Jazz Age that explores the life of the mysterious millionaire Jay Gatsby and his obsession with the elusive Daisy Buchanan.",
+      "price": 15,
+      "stock": 20,
+      "coverImage": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451512345",
+      "publishedDate": "1949-06-08",
+      "genre": "Dystopian",
+      "description": "A chilling dystopian novel that presents a future society under constant surveillance by a totalitarian regime led by Big Brother.",
+      "price": 10.99,
+      "stock": 30,
+      "coverImage": "https://picsum.photos/200"
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "9780141439518",
+      "publishedDate": "1813-01-28",
+      "genre": "Romance",
+      "description": "A classic romance novel that explores the manners and matrimonial machinations among the British gentry of the early 19th century.",
+      "price": 9.99,
+      "stock": 40,
+      "coverImage": "https://picsum.photos/200/400"
+    }
+  ]
+}

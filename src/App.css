@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.addtxt {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 13px;
+  width: 350px;
+  background-color: #e5e8ed;
+  font-weight: 500;
+}
+
+.second {
+  width: 350px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.text1 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #56575b;
+}
+
+.text2 {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 6px;
+  color: #56575b;
+}
+
+.text3 {
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 4px;
+  color: #828386;
+}
+
+.text3o {
+  color: #00a5f4;
+
+}
+
+.text4 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #828386;
+}
+
+.text4i {
+  color: #00a5f4;
+}
+
+.text4o {
+  color: white;
+}
+
+.thumbup {
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.thumbupo {
+  color: #17a2b8;
+}
